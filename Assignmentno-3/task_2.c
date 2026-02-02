@@ -1,0 +1,50 @@
+///////////////////////////////////////////////////////
+//
+//   Hedder file inclusion
+//
+//////////////////////////////////////////////////////
+
+#include<stdio.h>
+////////////////////////////////////////////////////////////////////////
+//
+//    Function Name : PrintEven
+//    Description :   It is used to display the even numbers
+//    Author :        Pratik Dhananjay Dhayagude
+//    Date :          
+//
+////////////////////////////////////////////////////////////////////////
+
+
+void PrintEven(int iNo)
+{
+    int iCnt = 0;
+    if(iNo < 0)
+    {
+        iNo = -iNo;
+    }
+    for(iCnt = 1;iCnt<iNo;iCnt++)
+    {
+        if((iNo%iCnt) == 0)
+        {
+            printf("%d\t",iCnt);
+        }
+    }
+
+}
+///////////////////////////////////////////////////////////////////////
+//
+//   : Entry point function
+//
+///////////////////////////////////////////////////////////////////////
+
+int main()
+{
+
+    int iValue = 0;
+    printf("Enter they number\n");
+    scanf("%d",&iValue);
+
+    PrintEven(iValue);
+
+    return 0;
+}
