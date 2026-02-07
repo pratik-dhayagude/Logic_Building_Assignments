@@ -1,0 +1,19 @@
+#include<stdio.h>
+
+void Display(int iNo)
+{
+   
+    if(iNo>=1)
+    {
+        printf("%d\t",iNo);
+        iNo--;
+        Display(iNo);
+    }
+
+}
+int main()
+{
+    Display(5);
+
+    return 0;
+}
