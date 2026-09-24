@@ -13,4 +13,4 @@ Key Objectives
 Technologies Used
 	•	C Programming Language
 	•	GCC Compiler
-	•	Linux/Unix Environment
+	•	Linux/Unix Environment.
